@@ -1,6 +1,6 @@
 ## PEGA XPath Builder
 
-Install from [chrome webstore] (https://chrome.google.com/webstore/detail/pega-xpath-builder/egkbiiglhcgopbejlhmekoopkjcgbgoj).
+Install from [chrome webstore](https://chrome.google.com/webstore/detail/pega-xpath-builder/egkbiiglhcgopbejlhmekoopkjcgbgoj).
 
 ## INTRODUCTION
  
