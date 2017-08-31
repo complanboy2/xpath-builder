@@ -5,6 +5,8 @@ Install from [chrome webstore](https://chrome.google.com/webstore/detail/pega-xp
 
 ### View here
 
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/0KbavKOiS_k/0.jpg)](https://www.youtube.com/watch?v=0KbavKOiS_k)
 <video src="https://www.youtube.com/watch?v=0KbavKOiS_k" width="320" height="200" controls preload></video>
 
 ### INTRODUCTION
