@@ -2,7 +2,7 @@
 
 Install from [chrome webstore](https://chrome.google.com/webstore/detail/pega-xpath-builder/egkbiiglhcgopbejlhmekoopkjcgbgoj).
 
-## INTRODUCTION
+### INTRODUCTION
  
 Being a PEGA developer, If I had to do any automation of my PEGA application then it has to be through UI only. Irrespective of the framework used for automation (RSpec or another Selenium based framework), most of the effort is being spent on identifying the UI elements uniquely. XPath is generally used for identifying these UI elements.
  
@@ -10,34 +10,36 @@ Identifying unique and reliable XPath and maintaining it is a manual and time ta
  
 Hence, I've developed this automated XPath builder. This will generate unique and reliable XPaths which are easy to build and maintain for all PEGA applications.
 
-### Markdown
+## MARKET RESEARCH
+ 
+We evaluated Firebug/Chrome-Dev-Tools XPath finder, but they won’t provide us reliable XPaths and need maintenance for even minor UI changes. Their XPath generation completely depends on the number of number elements count. Thus the generated XPaths are of no use for enterprise applications.
+
+PEGA applications support generation of data-test-id's and many other special attrubites to help in element identification. This XPath-Builder tool leverages these special attributes for building the XPaths automatically.
+ 
+## WHY DO WE THINK THIS IS A BIG/TRANSFORMATIONAL IDEA ?
+ 
+Usually (from PEGA application development perspective), we use both JUnits and RSpecs for test automation and around 30% of them are RSpecs (UI automation).  In daily test execution results, we have one or other RSpec failures and these turns out to be XPath issues in most of the case. This could be due to our recent changes or some other team’s changes.
+  
+Every time engineers spend considerable amount of time in framing/building new XPaths for the failing elements. Same is the case with writing new RSPecs too. Majority of the time spent in writing RSpecs is for identifying XPaths of all the new elements. Replacing this effort with a tool will reduce the manual effort drastically and also provides a reliable and standardized solution.
+ 
+This is the case of our team, where majority of automation is done through JUnits. But framework teams or external customers, rely on UI automation predominantly (using Selenium or similar tools). Our tool will save time and manual resources considerably in developing tests and also such tests demand lesser maintenance.
+
+## HOW TO USE
+ 
+ - List
+ 
+1. Navigate here using Chrome browser and click on “ADD TO CHROME”. A pop will appear and click on “Add Extension”. This will install this “Pega XPath Builder” chrome extension.
+ 
+2. Login to Or Refresh any Pega Built Website (PRPC or PMF or PDN). Right click on webpage and click inspect.
+ 
+3. From inspect window, you can click on Elements and on right side, you will find a new tab called (PEGA XPath Builder). If you window size is not big enough, you might need to click on >> symbol and find the tab.
+ 
+4. Now, inspect any element like we do for finding XPaths manually and the corresponding xpath will be seen in the text shown on right side (Inside the PEGA XPath Builder tab).
+ 
+5. You can copy the XPath of the selected element by clicking the “COPY TO CLIPBOARD” button.
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/complanboy2/xpath-builder/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with install or usage? Please write to us, [contact support](mail:complanboy2@gmail.com) and we’ll help you sort it out.
