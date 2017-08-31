@@ -1,8 +1,14 @@
-## Welcome to GitHub Pages
+## PEGA XPath Builder
 
-You can use the [editor on GitHub](https://github.com/complanboy2/xpath-builder/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Install from [chrome webstore] (https://chrome.google.com/webstore/detail/pega-xpath-builder/egkbiiglhcgopbejlhmekoopkjcgbgoj).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## INTRODUCTION
+ 
+Being a PEGA developer, If I had to do any automation of my PEGA application then it has to be through UI only. Irrespective of the framework used for automation (RSpec or another Selenium based framework), most of the effort is being spent on identifying the UI elements uniquely. XPath is generally used for identifying these UI elements.
+ 
+Identifying unique and reliable XPath and maintaining it is a manual and time taking task. Most of the time it is NOT straightforward, and we end up writing relative XPath(s). And, also these manual activities are prone to error and there is no standard way of building the XPaths.
+ 
+Hence, I've developed this automated XPath builder. This will generate unique and reliable XPaths which are easy to build and maintain for all PEGA applications.
 
 ### Markdown
 
