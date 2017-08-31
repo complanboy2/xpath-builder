@@ -26,8 +26,6 @@ This is the case of our team, where majority of automation is done through JUnit
 
 ## HOW TO USE
  
- - List
- 
 1. Navigate here using Chrome browser and click on “ADD TO CHROME”. A pop will appear and click on “Add Extension”. This will install this “Pega XPath Builder” chrome extension.
  
 2. Login to Or Refresh any Pega Built Website (PRPC or PMF or PDN). Right click on webpage and click inspect.
@@ -42,4 +40,4 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ### Support or Contact
 
-Having trouble with install or usage? Please write to us, [contact support](mail:complanboy2@gmail.com) and we’ll help you sort it out.
+Having trouble with install or usage? Please write to us, [contact support](mailto:complanboy2@gmail.com) and we’ll help you sort it out.
