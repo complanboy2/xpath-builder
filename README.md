@@ -2,6 +2,11 @@
 
 Install from [chrome webstore](https://chrome.google.com/webstore/detail/pega-xpath-builder/egkbiiglhcgopbejlhmekoopkjcgbgoj).
 
+
+### View here
+
+<video src="https://www.youtube.com/watch?v=0KbavKOiS_k" width="320" height="200" controls preload></video>
+
 ### INTRODUCTION
  
 Being a PEGA developer, If I had to do any automation of my PEGA application then it has to be through UI only. Irrespective of the framework used for automation (RSpec or another Selenium based framework), most of the effort is being spent on identifying the UI elements uniquely. XPath is generally used for identifying these UI elements.
